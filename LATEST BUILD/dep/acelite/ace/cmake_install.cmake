@@ -31,19 +31,19 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/ace.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/Debug/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/Debug/ace.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/ace.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/Release/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/Release/ace.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/ace.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/MinSizeRel/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/MinSizeRel/ace.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/ace.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/RelWithDebInfo/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/RelWithDebInfo/ace.dll")
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

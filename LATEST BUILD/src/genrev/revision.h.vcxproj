@@ -106,7 +106,7 @@ cd C:\RevoCore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/Latest Build" -P C:/RevoCore/cmake/genrev.cmake
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/LATEST BUILD" -P C:/RevoCore/cmake/genrev.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,15 +114,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/Latest Build/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\revision.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/LATEST BUILD/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\revision.h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 cd C:\RevoCore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/Latest Build" -P C:/RevoCore/cmake/genrev.cmake
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/LATEST BUILD" -P C:/RevoCore/cmake/genrev.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,15 +130,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/Latest Build/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\revision.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/LATEST BUILD/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\revision.h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
 cd C:\RevoCore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/Latest Build" -P C:/RevoCore/cmake/genrev.cmake
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/LATEST BUILD" -P C:/RevoCore/cmake/genrev.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,15 +146,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/Latest Build/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\revision.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/LATEST BUILD/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\revision.h</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
 cd C:\RevoCore
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/Latest Build" -P C:/RevoCore/cmake/genrev.cmake
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-DBUILDDIR=C:/RevoCore/LATEST BUILD" -P C:/RevoCore/cmake/genrev.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -162,15 +162,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/Latest Build/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\revision.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/LATEST BUILD/src/genrev/CMakeFiles/revision.h.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\revision.h</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\..\src\genrev\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/RevoCore/src/genrev/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -179,10 +179,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/src/genrev/CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/RevoCore/src/genrev/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -191,10 +191,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/src/genrev/CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/RevoCore/src/genrev/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -203,10 +203,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/src/genrev/CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/RevoCore/src/genrev/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,14 +215,14 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/src/genrev/CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;C:\RevoCore\src\genrev\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\src\genrev\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\generate.stamp</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\RevoCore\Latest Build\src\genrev\CMakeFiles\revision.h" />
+    <ClInclude Include="C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\revision.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/RevoCore/Latest Build/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/RevoCore/LATEST BUILD/ZERO_CHECK.vcxproj">
       <Project>3FF553F1-05E0-4F4A-8384-9DEB8C873F2F</Project>
     </ProjectReference>
   </ItemGroup>

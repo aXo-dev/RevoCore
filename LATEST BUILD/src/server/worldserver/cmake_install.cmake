@@ -31,19 +31,19 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/worldserver.exe")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/Latest Build/bin/Debug/worldserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/LATEST BUILD/bin/Debug/worldserver.exe")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/worldserver.exe")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/Latest Build/bin/Release/worldserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/LATEST BUILD/bin/Release/worldserver.exe")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/worldserver.exe")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/Latest Build/bin/MinSizeRel/worldserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/LATEST BUILD/bin/MinSizeRel/worldserver.exe")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/worldserver.exe")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/Latest Build/bin/RelWithDebInfo/worldserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE EXECUTABLE FILES "C:/RevoCore/LATEST BUILD/bin/RelWithDebInfo/worldserver.exe")
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

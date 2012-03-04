@@ -60,7 +60,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/Latest Build;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -82,7 +82,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/Latest Build;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,7 +104,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/Latest Build;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -126,7 +126,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/Latest Build;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/collision;C:/RevoCore/dep/g3dlite/include;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/collision/Maps;C:/RevoCore/src/server/collision/Models;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,8 +158,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/Latest Build/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/LATEST BUILD/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
 cd .
@@ -170,8 +170,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/Latest Build/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/LATEST BUILD/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
 cd .
@@ -182,8 +182,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/Latest Build/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/LATEST BUILD/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
 cd .
@@ -194,15 +194,15 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/Latest Build/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/LATEST BUILD/src/server/collision/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\INSTALL_force</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\..\..\src\server\collision\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/RevoCore/src/server/collision/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -211,10 +211,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/src/server/collision/CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/RevoCore/src/server/collision/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -223,10 +223,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/src/server/collision/CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/RevoCore/src/server/collision/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -235,10 +235,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/src/server/collision/CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/RevoCore/src/server/collision/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/src/server/collision/CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;C:\RevoCore\src\server\collision\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\src\server\collision\CMakeFiles\generate.stamp</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/RevoCore/Latest Build/ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:/RevoCore/LATEST BUILD/ALL_BUILD.vcxproj">
       <Project>1214C937-CF34-4F0B-A7D2-EF73D0E6DCBB</Project>
     </ProjectReference>
   </ItemGroup>

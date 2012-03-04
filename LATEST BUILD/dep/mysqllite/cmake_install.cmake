@@ -31,19 +31,19 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/libmysql.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/Debug/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/Debug/libmysql.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/libmysql.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/Release/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/Release/libmysql.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/libmysql.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/MinSizeRel/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/MinSizeRel/libmysql.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/RevoCore/libmysql.dll")
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/Latest Build/bin/RelWithDebInfo/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/RevoCore" TYPE SHARED_LIBRARY FILES "C:/RevoCore/LATEST BUILD/bin/RelWithDebInfo/libmysql.dll")
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

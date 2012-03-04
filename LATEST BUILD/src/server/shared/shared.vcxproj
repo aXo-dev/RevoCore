@@ -53,19 +53,19 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\src\server\shared\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shared.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\src\server\shared\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shared.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\src\server\shared\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">shared.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\src\server\shared\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">shared.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
@@ -73,7 +73,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -91,14 +91,14 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>Debug</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/src/server/shared/Debug/shared.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/src/server/shared/Debug/shared.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +109,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -126,14 +126,14 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>Release</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/src/server/shared/Release/shared.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/src/server/shared/Release/shared.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -161,14 +161,14 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/src/server/shared/MinSizeRel/shared.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/src/server/shared/MinSizeRel/shared.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -179,7 +179,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
@@ -196,14 +196,14 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/src/server/shared/RelWithDebInfo/shared.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/src/server/shared/RelWithDebInfo/shared.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/shared;C:/RevoCore/Latest Build;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/RevoCore/LATEST BUILD/src/server/shared;C:/RevoCore/LATEST BUILD;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/utf8cpp;C:/RevoCore/src/server;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -215,7 +215,7 @@
     <CustomBuild Include="..\..\..\..\src\server\shared\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/RevoCore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,10 +224,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/src/server/shared/CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/RevoCore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,10 +236,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/src/server/shared/CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/RevoCore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -248,10 +248,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/src/server/shared/CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/RevoCore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,7 +260,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/src/server/shared/CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;C:\RevoCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\src\server\shared\CMakeFiles\generate.stamp</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -354,10 +354,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\RevoCore\src\server\shared\Debugging\Errors.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/RevoCore/Latest Build/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/RevoCore/LATEST BUILD/ZERO_CHECK.vcxproj">
       <Project>3FF553F1-05E0-4F4A-8384-9DEB8C873F2F</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/RevoCore/Latest Build/dep/acelite/ace/ace.vcxproj">
+    <ProjectReference Include="C:/RevoCore/LATEST BUILD/dep/acelite/ace/ace.vcxproj">
       <Project>26B7D46C-F045-4F47-8281-20BCB2D1FEC6</Project>
     </ProjectReference>
   </ItemGroup>

@@ -53,25 +53,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\bin\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\bin\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ace.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ace</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\bin\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\bin\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ace.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ace</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\bin\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\bin\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ace.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ace</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\bin\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\bin\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ace.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ace</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
@@ -99,7 +99,7 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR="Debug";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>Debug</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Debug/ace.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/Debug/ace.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR=\"Debug\";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -118,9 +118,9 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>C:/RevoCore/Latest Build/dep/acelite/ace/Debug/ace.lib</ImportLibrary>
+      <ImportLibrary>C:/RevoCore/LATEST BUILD/dep/acelite/ace/Debug/ace.lib</ImportLibrary>
       <LinkIncremental>true</LinkIncremental>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Debug/ace.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/Debug/ace.pdb</ProgramDataBaseFileName>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
       <Version></Version>
@@ -149,7 +149,7 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR="Release";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>Release</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Release/ace.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/Release/ace.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR=\"Release\";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -168,8 +168,8 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <ImportLibrary>C:/RevoCore/Latest Build/dep/acelite/ace/Release/ace.lib</ImportLibrary>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Release/ace.pdb</ProgramDataBaseFileName>
+      <ImportLibrary>C:/RevoCore/LATEST BUILD/dep/acelite/ace/Release/ace.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/Release/ace.pdb</ProgramDataBaseFileName>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
       <Version></Version>
@@ -198,7 +198,7 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR="MinSizeRel";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/MinSizeRel/ace.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/MinSizeRel/ace.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR=\"MinSizeRel\";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -217,8 +217,8 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <ImportLibrary>C:/RevoCore/Latest Build/dep/acelite/ace/MinSizeRel/ace.lib</ImportLibrary>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/MinSizeRel/ace.pdb</ProgramDataBaseFileName>
+      <ImportLibrary>C:/RevoCore/LATEST BUILD/dep/acelite/ace/MinSizeRel/ace.lib</ImportLibrary>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/MinSizeRel/ace.pdb</ProgramDataBaseFileName>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
       <Version></Version>
@@ -247,7 +247,7 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR="RelWithDebInfo";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/RelWithDebInfo/ace.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/RelWithDebInfo/ace.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;ACE_BUILD_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";ace_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -266,9 +266,9 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>C:/RevoCore/Latest Build/dep/acelite/ace/RelWithDebInfo/ace.lib</ImportLibrary>
+      <ImportLibrary>C:/RevoCore/LATEST BUILD/dep/acelite/ace/RelWithDebInfo/ace.lib</ImportLibrary>
       <LinkIncremental>true</LinkIncremental>
-      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/RelWithDebInfo/ace.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/LATEST BUILD/bin/RelWithDebInfo/ace.pdb</ProgramDataBaseFileName>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
       <Version></Version>
@@ -281,7 +281,7 @@
     <CustomBuild Include="..\..\..\..\dep\acelite\ace\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/RevoCore/dep/acelite/ace/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -290,10 +290,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/dep/acelite/ace/CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/RevoCore/dep/acelite/ace/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,10 +302,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/dep/acelite/ace/CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/RevoCore/dep/acelite/ace/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -314,10 +314,10 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/dep/acelite/ace/CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/RevoCore/dep/acelite/ace/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/LATEST BUILD" --check-stamp-file "C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -326,7 +326,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/dep/acelite/ace/CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;C:\RevoCore\dep\acelite\ace\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\LATEST BUILD\dep\acelite\ace\CMakeFiles\generate.stamp</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -658,7 +658,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\RevoCore\dep\acelite\ace\XTI_ATM_Mcast.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/RevoCore/Latest Build/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/RevoCore/LATEST BUILD/ZERO_CHECK.vcxproj">
       <Project>3FF553F1-05E0-4F4A-8384-9DEB8C873F2F</Project>
     </ProjectReference>
   </ItemGroup>

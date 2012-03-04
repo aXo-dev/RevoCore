@@ -1,26 +1,18 @@
-﻿Build started 3/4/2012 10:58:21 AM.
-     1>Project "C:\RevoCore\Latest Build\src\server\authserver\authserver.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/4/2012 5:37:02 PM.
+     1>Project "C:\RevoCore\LATEST BUILD\src\server\authserver\authserver.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "authserver.dir\Release\authserver.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "authserver.dir\Release\authserver.unsuccessfulbuild".
        CustomBuild:
-         Building Custom Rule C:/RevoCore/src/server/authserver/CMakeLists.txt
-         CMake does not need to re-run because C:\RevoCore\Latest Build\src\server\authserver\CMakeFiles\generate.stamp is up-to-date.
+         All outputs are up-to-date.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/RevoCore/Latest Build/src/server/authserver" /I"C:/RevoCore/Latest Build" /IC:/RevoCore/src/server/shared /IC:/RevoCore/src/server/shared/Database /IC:/RevoCore/src/server/shared/Debugging /IC:/RevoCore/src/server/shared/Packets /IC:/RevoCore/src/server/shared/Cryptography /IC:/RevoCore/src/server/shared/Cryptography/Authentication /IC:/RevoCore/src/server/shared/Logging /IC:/RevoCore/src/server/shared/Threading /IC:/RevoCore/src/server/shared/Utilities /IC:/RevoCore/src/server/authserver /IC:/RevoCore/src/server/authserver/Authentication /IC:/RevoCore/src/server/authserver/Realms /IC:/RevoCore/src/server/authserver/Server /IC:/RevoCore/dep/acelite /IC:/RevoCore/dep/mysqllite/include /I"C:/OpenSSL-Win32/include" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"C:/RevoCore/src/server/authserver/PrecompiledHeaders/authPCH.h" /Fp"authserver.dir\Release\authserver.pch" /Fo"authserver.dir\Release\\" /Fd"C:/RevoCore/Latest Build/bin/Release/authserver.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /FIC:/RevoCore/src/server/authserver/PrecompiledHeaders/authPCH.h /analyze- /errorReport:prompt C:\RevoCore\src\server\authserver\PrecompiledHeaders\authPCH.cpp  /Zm1000 
-         authPCH.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/RevoCore/Latest Build/src/server/authserver" /I"C:/RevoCore/Latest Build" /IC:/RevoCore/src/server/shared /IC:/RevoCore/src/server/shared/Database /IC:/RevoCore/src/server/shared/Debugging /IC:/RevoCore/src/server/shared/Packets /IC:/RevoCore/src/server/shared/Cryptography /IC:/RevoCore/src/server/shared/Cryptography/Authentication /IC:/RevoCore/src/server/shared/Logging /IC:/RevoCore/src/server/shared/Threading /IC:/RevoCore/src/server/shared/Utilities /IC:/RevoCore/src/server/authserver /IC:/RevoCore/src/server/authserver/Authentication /IC:/RevoCore/src/server/authserver/Realms /IC:/RevoCore/src/server/authserver/Server /IC:/RevoCore/dep/acelite /IC:/RevoCore/dep/mysqllite/include /I"C:/OpenSSL-Win32/include" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"C:/RevoCore/src/server/authserver/PrecompiledHeaders/authPCH.h" /Fp"authserver.dir\Release\authserver.pch" /Fo"authserver.dir\Release\\" /Fd"C:/RevoCore/Latest Build/bin/Release/authserver.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /FIC:/RevoCore/src/server/authserver/PrecompiledHeaders/authPCH.h /analyze- /errorReport:prompt C:\RevoCore\src\server\authserver\Authentication\AuthCodes.cpp C:\RevoCore\src\server\authserver\Realms\RealmList.cpp C:\RevoCore\src\server\authserver\Server\AuthSocket.cpp C:\RevoCore\src\server\authserver\Server\RealmSocket.cpp C:\RevoCore\src\server\authserver\Main.cpp C:\RevoCore\src\server\shared\Debugging\WheatyExceptionReport.cpp  /Zm1000 
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/RevoCore/LATEST BUILD/src/server/authserver" /I"C:/RevoCore/LATEST BUILD" /IC:/RevoCore/src/server/shared /IC:/RevoCore/src/server/shared/Database /IC:/RevoCore/src/server/shared/Debugging /IC:/RevoCore/src/server/shared/Packets /IC:/RevoCore/src/server/shared/Cryptography /IC:/RevoCore/src/server/shared/Cryptography/Authentication /IC:/RevoCore/src/server/shared/Logging /IC:/RevoCore/src/server/shared/Threading /IC:/RevoCore/src/server/shared/Utilities /IC:/RevoCore/src/server/authserver /IC:/RevoCore/src/server/authserver/Authentication /IC:/RevoCore/src/server/authserver/Realms /IC:/RevoCore/src/server/authserver/Server /IC:/RevoCore/dep/acelite /IC:/RevoCore/dep/mysqllite/include /I"C:/OpenSSL-Win32/include" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"C:/RevoCore/src/server/authserver/PrecompiledHeaders/authPCH.h" /Fp"authserver.dir\Release\authserver.pch" /Fo"authserver.dir\Release\\" /Fd"C:/RevoCore/LATEST BUILD/bin/Release/authserver.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /FIC:/RevoCore/src/server/authserver/PrecompiledHeaders/authPCH.h /analyze- /errorReport:prompt C:\RevoCore\src\server\authserver\Authentication\AuthCodes.cpp C:\RevoCore\src\server\authserver\Server\AuthSocket.cpp  /Zm1000 
          AuthCodes.cpp
-         RealmList.cpp
          AuthSocket.cpp
-         RealmSocket.cpp
-         Main.cpp
-         WheatyExceptionReport.cpp
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\\\"Release\\\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"C:/RevoCore/Latest Build/src/server/authserver" /I"C:/RevoCore/Latest Build" /IC:/RevoCore/src/server/shared /IC:/RevoCore/src/server/shared/Database /IC:/RevoCore/src/server/shared/Debugging /IC:/RevoCore/src/server/shared/Packets /IC:/RevoCore/src/server/shared/Cryptography /IC:/RevoCore/src/server/shared/Cryptography/Authentication /IC:/RevoCore/src/server/shared/Logging /IC:/RevoCore/src/server/shared/Threading /IC:/RevoCore/src/server/shared/Utilities /IC:/RevoCore/src/server/authserver /IC:/RevoCore/src/server/authserver/Authentication /IC:/RevoCore/src/server/authserver/Realms /IC:/RevoCore/src/server/authserver/Server /IC:/RevoCore/dep/acelite /IC:/RevoCore/dep/mysqllite/include /I"C:/OpenSSL-Win32/include" /nologo /fo"authserver.dir\Release\authserver.res" C:\RevoCore\src\server\authserver\authserver.rc 
-       MakeDirsForLink:
-         Creating directory "C:\RevoCore\Latest Build\src\server\authserver\Release\".
+         All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\RevoCore\Latest Build\bin\Release\authserver.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\shared\Release\shared.lib ..\..\..\dep\mysqllite\Release\libmysql.lib "C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib" "C:\OpenSSL-Win32\lib\VC\libeay32MD.lib" "C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib" ..\..\..\dep\acelite\ace\Release\ace.lib ..\..\..\dep\zlib\Release\zlib.lib ws2_32.lib /MANIFEST /ManifestFile:"authserver.dir\Release\authserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\RevoCore\Latest Build\bin\Release\authserver.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/RevoCore/Latest Build/src/server/authserver/Release/authserver.lib" /MACHINE:X86 authserver.dir\Release\authserver.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\RevoCore\LATEST BUILD\bin\Release\authserver.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\shared\Release\shared.lib ..\..\..\dep\mysqllite\Release\libmysql.lib "C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib" "C:\OpenSSL-Win32\lib\VC\libeay32MD.lib" "C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib" ..\..\..\dep\acelite\ace\Release\ace.lib ..\..\..\dep\zlib\Release\zlib.lib ws2_32.lib /MANIFEST /ManifestFile:"authserver.dir\Release\authserver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\RevoCore\LATEST BUILD\bin\Release\authserver.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/RevoCore/LATEST BUILD/src/server/authserver/Release/authserver.lib" /MACHINE:X86 authserver.dir\Release\authserver.res
          authserver.dir\Release\authPCH.obj
          authserver.dir\Release\AuthCodes.obj
          authserver.dir\Release\RealmList.obj
@@ -28,13 +20,13 @@
          authserver.dir\Release\RealmSocket.obj
          authserver.dir\Release\Main.obj
          authserver.dir\Release\WheatyExceptionReport.obj  /machine:X86 
-            Creating library C:/RevoCore/Latest Build/src/server/authserver/Release/authserver.lib and object C:/RevoCore/Latest Build/src/server/authserver/Release/authserver.exp
-         authserver.vcxproj -> C:\RevoCore\Latest Build\bin\Release\authserver.exe
+            Creating library C:/RevoCore/LATEST BUILD/src/server/authserver/Release/authserver.lib and object C:/RevoCore/LATEST BUILD/src/server/authserver/Release/authserver.exp
+         authserver.vcxproj -> C:\RevoCore\LATEST BUILD\bin\Release\authserver.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\RevoCore\Latest Build\bin\Release\authserver.exe;#1" /manifest authserver.dir\Release\authserver.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\RevoCore\LATEST BUILD\bin\Release\authserver.exe;#1" /manifest authserver.dir\Release\authserver.exe.intermediate.manifest
        PostBuildEvent:
          setlocal
-         "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/RevoCore/src/server/authserver/authserver.conf.dist "C:/RevoCore/Latest Build/bin/Release/"
+         "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/RevoCore/src/server/authserver/authserver.conf.dist "C:/RevoCore/LATEST BUILD/bin/Release/"
          if %errorlevel% neq 0 goto :cmEnd
          :cmEnd
          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -46,8 +38,8 @@
        FinalizeBuildStatus:
          Deleting file "authserver.dir\Release\authserver.unsuccessfulbuild".
          Touching "authserver.dir\Release\authserver.lastbuildstate".
-     1>Done Building Project "C:\RevoCore\Latest Build\src\server\authserver\authserver.vcxproj" (build target(s)).
+     1>Done Building Project "C:\RevoCore\LATEST BUILD\src\server\authserver\authserver.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.45
+Time Elapsed 00:00:02.67

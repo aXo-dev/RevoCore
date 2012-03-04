@@ -29,12 +29,12 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/RevoCore/Latest Build/src/server/shared/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/src/server/game/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/src/server/collision/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/src/server/authserver/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/src/server/scripts/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/src/server/worldserver/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/src/server/shared/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/src/server/game/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/src/server/collision/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/src/server/authserver/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/src/server/scripts/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/src/server/worldserver/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -1,27 +1,27 @@
-﻿Build started 3/4/2012 10:55:08 AM.
-     1>Project "C:\RevoCore\Latest Build\dep\gsoap\gsoap.vcxproj" on node 5 (build target(s)).
-     1>PrepareForBuild:
-         Creating directory "C:\RevoCore\Latest Build\dep\gsoap\Release\".
-       InitializeBuildStatus:
+﻿Build started 3/4/2012 4:27:37 PM.
+     1>Project "C:\RevoCore\LATEST BUILD\dep\gsoap\gsoap.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
          Creating "gsoap.dir\Release\gsoap.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
+         All outputs are up-to-date.
          Building Custom Rule C:/RevoCore/dep/gsoap/CMakeLists.txt
-         CMake does not need to re-run because C:\RevoCore\Latest Build\dep\gsoap\CMakeFiles\generate.stamp is up-to-date.
+         CMake does not need to re-run because C:\RevoCore\LATEST BUILD\dep\gsoap\CMakeFiles\generate.stamp is up-to-date.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/RevoCore/dep/gsoap /nologo /W0 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=0 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gsoap.dir\Release\\" /Fd"C:/RevoCore/Latest Build/dep/gsoap/Release/gsoap.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /analyze- /errorReport:prompt C:\RevoCore\dep\gsoap\soapC.cpp C:\RevoCore\dep\gsoap\soapServer.cpp C:\RevoCore\dep\gsoap\stdsoap2.cpp  /Zm1000 
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/RevoCore/dep/gsoap /nologo /W0 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=0 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gsoap.dir\Release\\" /Fd"C:/RevoCore/LATEST BUILD/dep/gsoap/Release/gsoap.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /analyze- /errorReport:prompt C:\RevoCore\dep\gsoap\soapC.cpp C:\RevoCore\dep\gsoap\soapServer.cpp C:\RevoCore\dep\gsoap\stdsoap2.cpp  /Zm1000 
          soapC.cpp
          soapServer.cpp
          stdsoap2.cpp
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\RevoCore\Latest Build\dep\gsoap\Release\gsoap.lib" /NOLOGO gsoap.dir\Release\soapC.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\RevoCore\LATEST BUILD\dep\gsoap\Release\gsoap.lib" /NOLOGO gsoap.dir\Release\soapC.obj
          gsoap.dir\Release\soapServer.obj
          gsoap.dir\Release\stdsoap2.obj
-         gsoap.vcxproj -> C:\RevoCore\Latest Build\dep\gsoap\Release\gsoap.lib
+         gsoap.vcxproj -> C:\RevoCore\LATEST BUILD\dep\gsoap\Release\gsoap.lib
        FinalizeBuildStatus:
          Deleting file "gsoap.dir\Release\gsoap.unsuccessfulbuild".
          Touching "gsoap.dir\Release\gsoap.lastbuildstate".
-     1>Done Building Project "C:\RevoCore\Latest Build\dep\gsoap\gsoap.vcxproj" (build target(s)).
+     1>Done Building Project "C:\RevoCore\LATEST BUILD\dep\gsoap\gsoap.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:20.66
+Time Elapsed 00:00:02.71

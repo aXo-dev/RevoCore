@@ -1,18 +1,18 @@
-﻿Build started 3/4/2012 11:02:37 AM.
-     1>Project "C:\RevoCore\Latest Build\src\genrev\revision.h.vcxproj" on node 3 (build target(s)).
+﻿Build started 3/4/2012 5:59:07 PM.
+     1>Project "C:\RevoCore\LATEST BUILD\src\genrev\revision.h.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Win32\Release\revision.h\revision.h.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
-         
          -- WARNING - Missing or outdated git - did you forget to install a recent version?
+         
          -- WARNING - Observe that for revision hash/date to work you need at least version 1.7
          -- WARNING - Missing repository tags - you may need to pull tags with git fetch -t
          -- WARNING - Continuing anyway - note that the versionstring will be set to 0000-00-00 00:00:00 (Archived)
        FinalizeBuildStatus:
          Deleting file "Win32\Release\revision.h\revision.h.unsuccessfulbuild".
          Touching "Win32\Release\revision.h\revision.h.lastbuildstate".
-     1>Done Building Project "C:\RevoCore\Latest Build\src\genrev\revision.h.vcxproj" (build target(s)).
+     1>Done Building Project "C:\RevoCore\LATEST BUILD\src\genrev\revision.h.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.10
+Time Elapsed 00:00:00.18

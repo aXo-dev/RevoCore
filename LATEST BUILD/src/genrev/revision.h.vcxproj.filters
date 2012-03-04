@@ -3,7 +3,7 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\RevoCore\Latest Build\src\genrev\CMakeFiles\revision.h">
+    <ClInclude Include="C:\RevoCore\LATEST BUILD\src\genrev\CMakeFiles\revision.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

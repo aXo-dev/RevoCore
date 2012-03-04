@@ -29,11 +29,11 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/RevoCore/Latest Build/dep/acelite/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/dep/mysqllite/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/dep/zlib/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/dep/g3dlite/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/dep/gsoap/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/dep/acelite/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/dep/mysqllite/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/dep/zlib/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/dep/g3dlite/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/dep/gsoap/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

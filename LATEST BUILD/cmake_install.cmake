@@ -29,8 +29,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/RevoCore/Latest Build/dep/cmake_install.cmake")
-  INCLUDE("C:/RevoCore/Latest Build/src/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/dep/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/src/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -40,7 +40,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "C:/RevoCore/Latest Build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "C:/RevoCore/LATEST BUILD/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "C:/RevoCore/Latest Build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "C:/RevoCore/LATEST BUILD/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

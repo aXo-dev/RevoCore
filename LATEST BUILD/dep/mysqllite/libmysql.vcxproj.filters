@@ -485,7 +485,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\RevoCore\Latest Build\dep\mysqllite\versioninfo_dll.rc">
+    <ResourceCompile Include="C:\RevoCore\LATEST BUILD\dep\mysqllite\versioninfo_dll.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>

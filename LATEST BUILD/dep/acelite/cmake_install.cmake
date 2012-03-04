@@ -29,7 +29,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/RevoCore/Latest Build/dep/acelite/ace/cmake_install.cmake")
+  INCLUDE("C:/RevoCore/LATEST BUILD/dep/acelite/ace/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
