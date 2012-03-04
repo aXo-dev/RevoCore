@@ -31,15 +31,15 @@
 #include "Log.h"
 #include "Master.h"
 
-#ifndef _TRINITY_CORE_CONFIG
-# define _TRINITY_CORE_CONFIG  "worldserver.conf"
-#endif //_TRINITY_CORE_CONFIG
+#ifndef _REVO_CORE_CONFIG
+#define _REVO_CORE_CONFIG  "worldserver.conf"
+#endif //_REVO_CORE_CONFIG
 
 #ifdef _WIN32
 #include "ServiceWin32.h"
 char serviceName[] = "worldserver";
-char serviceLongName[] = "TrinityCore world service";
-char serviceDescription[] = "TrinityCore World of Warcraft emulator world service";
+char serviceLongName[] = "Revo(lution)Core world service";
+char serviceDescription[] = "Revo(lution)Core, a World of Warcraft emulator world service based off of TrinityCore";
 /*
  * -1 - not in service mode
  *  0 - stopped
@@ -73,7 +73,7 @@ void usage(const char *prog)
 extern int main(int argc, char **argv)
 {
     ///- Command line parsing to get the configuration file name
-    char const* cfg_file = _TRINITY_CORE_CONFIG;
+    char const* cfg_file = _REVO_CORE_CONFIG;
     int c = 1;
     while ( c < argc )
     {
