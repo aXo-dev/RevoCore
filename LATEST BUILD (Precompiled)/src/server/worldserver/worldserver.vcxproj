@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CAE31484-DE4E-43F8-BF83-77949C6E74C7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>worldserver</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">worldserver.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">worldserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">worldserver.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">worldserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">worldserver.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">worldserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">worldserver.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">worldserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Debug/worldserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/RevoCore/src/server/worldserver/worldserver.conf.dist "C:/RevoCore/Latest Build/bin/$(ConfigurationName)/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\game\Debug\game.lib;..\shared\Debug\shared.lib;..\scripts\Debug\scripts.lib;..\collision\Debug\collision.lib;..\..\..\dep\g3dlite\Debug\g3dlib.lib;..\..\..\dep\gsoap\Debug\gsoap.lib;..\..\..\dep\acelite\ace\Debug\ace.lib;..\..\..\dep\mysqllite\Debug\libmysql.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MDd.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\zlib\Debug\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/RevoCore/Latest Build/src/server/worldserver/Debug/worldserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Debug/worldserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Release/worldserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/RevoCore/src/server/worldserver/worldserver.conf.dist "C:/RevoCore/Latest Build/bin/$(ConfigurationName)/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\game\Release\game.lib;..\shared\Release\shared.lib;..\scripts\Release\scripts.lib;..\collision\Release\collision.lib;..\..\..\dep\g3dlite\Release\g3dlib.lib;..\..\..\dep\gsoap\Release\gsoap.lib;..\..\..\dep\acelite\ace\Release\ace.lib;..\..\..\dep\mysqllite\Release\libmysql.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\zlib\Release\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/RevoCore/Latest Build/src/server/worldserver/Release/worldserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/Release/worldserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/MinSizeRel/worldserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/RevoCore/src/server/worldserver/worldserver.conf.dist "C:/RevoCore/Latest Build/bin/$(ConfigurationName)/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\game\MinSizeRel\game.lib;..\shared\MinSizeRel\shared.lib;..\scripts\MinSizeRel\scripts.lib;..\collision\MinSizeRel\collision.lib;..\..\..\dep\g3dlite\MinSizeRel\g3dlib.lib;..\..\..\dep\gsoap\MinSizeRel\gsoap.lib;..\..\..\dep\acelite\ace\MinSizeRel\ace.lib;..\..\..\dep\mysqllite\MinSizeRel\libmysql.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/RevoCore/Latest Build/src/server/worldserver/MinSizeRel/worldserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/MinSizeRel/worldserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/RelWithDebInfo/worldserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/RevoCore/Latest Build/src/server/worldserver;C:/RevoCore/Latest Build;C:/RevoCore/dep/gsoap;C:/RevoCore/dep/sockets/include;C:/RevoCore/dep/SFMT;C:/RevoCore/dep/mersennetwister;C:/RevoCore/src/server/collision;C:/RevoCore/src/server/collision/Management;C:/RevoCore/src/server/shared;C:/RevoCore/src/server/shared/Configuration;C:/RevoCore/src/server/shared/Cryptography;C:/RevoCore/src/server/shared/Cryptography/Authentication;C:/RevoCore/src/server/shared/Database;C:/RevoCore/src/server/shared/DataStores;C:/RevoCore/src/server/shared/Debugging;C:/RevoCore/src/server/shared/Dynamic/LinkedReference;C:/RevoCore/src/server/shared/Dynamic;C:/RevoCore/src/server/shared/Logging;C:/RevoCore/src/server/shared/Packets;C:/RevoCore/src/server/shared/Threading;C:/RevoCore/src/server/shared/Utilities;C:/RevoCore/src/server/game;C:/RevoCore/src/server/game/Accounts;C:/RevoCore/src/server/game/Achievements;C:/RevoCore/src/server/game/Addons;C:/RevoCore/src/server/game/AI;C:/RevoCore/src/server/game/AI/CoreAI;C:/RevoCore/src/server/game/AI/EventAI;C:/RevoCore/src/server/game/AI/ScriptedAI;C:/RevoCore/src/server/game/AI/SmartScripts;C:/RevoCore/src/server/game/AuctionHouse;C:/RevoCore/src/server/game/AuctionHouse/AuctionHouseBot;C:/RevoCore/src/server/game/Battlegrounds;C:/RevoCore/src/server/game/Battlegrounds/Zones;C:/RevoCore/src/server/game/Calendar;C:/RevoCore/src/server/game/Chat;C:/RevoCore/src/server/game/Chat/Channels;C:/RevoCore/src/server/game/Chat/Commands;C:/RevoCore/src/server/game/Combat;C:/RevoCore/src/server/game/Conditions;C:/RevoCore/src/server/game/DataStores;C:/RevoCore/src/server/game/DungeonFinding;C:/RevoCore/src/server/game/Entities;C:/RevoCore/src/server/game/Entities/Creature;C:/RevoCore/src/server/game/Entities/Corpse;C:/RevoCore/src/server/game/Entities/DynamicObject;C:/RevoCore/src/server/game/Entities/GameObject;C:/RevoCore/src/server/game/Entities/Item;C:/RevoCore/src/server/game/Entities/Item/Container;C:/RevoCore/src/server/game/Entities/Object;C:/RevoCore/src/server/game/Entities/Object/Updates;C:/RevoCore/src/server/game/Entities/Pet;C:/RevoCore/src/server/game/Entities/Player;C:/RevoCore/src/server/game/Entities/Totem;C:/RevoCore/src/server/game/Entities/Unit;C:/RevoCore/src/server/game/Entities/Vehicle;C:/RevoCore/src/server/game/Entities/Transport;C:/RevoCore/src/server/game/Events;C:/RevoCore/src/server/game/Globals;C:/RevoCore/src/server/game/Grids/Cells;C:/RevoCore/src/server/game/Grids/Notifiers;C:/RevoCore/src/server/game/Grids;C:/RevoCore/src/server/game/Groups;C:/RevoCore/src/server/game/Guilds;C:/RevoCore/src/server/game/Handlers;C:/RevoCore/src/server/game/Instances;C:/RevoCore/src/server/game/Loot;C:/RevoCore/src/server/game/Mails;C:/RevoCore/src/server/game/Maps;C:/RevoCore/src/server/game/Miscellaneous;C:/RevoCore/src/server/game/Movement;C:/RevoCore/src/server/game/Movement/MovementGenerators;C:/RevoCore/src/server/game/Movement/Waypoints;C:/RevoCore/src/server/game/OutdoorPvP;C:/RevoCore/src/server/game/Pools;C:/RevoCore/src/server/game/PrecompiledHeaders;C:/RevoCore/src/server/game/Quests;C:/RevoCore/src/server/game/Reputation;C:/RevoCore/src/server/game/Scripting;C:/RevoCore/src/server/game/Server/Protocol;C:/RevoCore/src/server/game/Server;C:/RevoCore/src/server/game/Skills;C:/RevoCore/src/server/game/Spells;C:/RevoCore/src/server/game/Spells/Auras;C:/RevoCore/src/server/game/Tools;C:/RevoCore/src/server/game/Weather;C:/RevoCore/src/server/game/World;C:/RevoCore/src/server/authserver/Server;C:/RevoCore/src/server/worldserver;C:/RevoCore/src/server/worldserver/CommandLine;C:/RevoCore/src/server/worldserver/RemoteAccess;C:/RevoCore/src/server/worldserver/TCSoap;C:/RevoCore/src/server/worldserver/WorldThread;C:/RevoCore/dep/acelite;C:/RevoCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/RevoCore/src/server/worldserver/worldserver.conf.dist "C:/RevoCore/Latest Build/bin/$(ConfigurationName)/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\game\RelWithDebInfo\game.lib;..\shared\RelWithDebInfo\shared.lib;..\scripts\RelWithDebInfo\scripts.lib;..\collision\RelWithDebInfo\collision.lib;..\..\..\dep\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\..\dep\gsoap\RelWithDebInfo\gsoap.lib;..\..\..\dep\acelite\ace\RelWithDebInfo\ace.lib;..\..\..\dep\mysqllite\RelWithDebInfo\libmysql.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/RevoCore/Latest Build/src/server/worldserver/RelWithDebInfo/worldserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFileName>C:/RevoCore/Latest Build/bin/RelWithDebInfo/worldserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\src\server\worldserver\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/RevoCore/src/server/worldserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/src/server/worldserver/CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/RevoCore/src/server/worldserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/src/server/worldserver/CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/RevoCore/src/server/worldserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/src/server/worldserver/CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/RevoCore/src/server/worldserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/RevoCore "-BC:/RevoCore/Latest Build" --check-stamp-file "C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/src/server/worldserver/CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;C:\RevoCore\src\server\worldserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\RevoCore\Latest Build\src\server\worldserver\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\PrecompiledHeaders\worldPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/RevoCore/src/server/worldserver/PrecompiledHeaders/worldPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\PrecompiledHeaders\worldPCH.h" />
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\CommandLine\CliRunnable.cpp" />
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\CommandLine\CliRunnable.h" />
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\RemoteAccess\RARunnable.cpp" />
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\RemoteAccess\RASocket.cpp" />
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\RemoteAccess\RARunnable.h" />
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\RemoteAccess\RASocket.h" />
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\TCSoap\TCSoap.cpp" />
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\TCSoap\TCSoap.h" />
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\WorldThread\WorldRunnable.cpp" />
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\WorldThread\WorldRunnable.h" />
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\Main.cpp" />
+    <ClCompile Include="C:\RevoCore\src\server\worldserver\Master.cpp" />
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\Master.h" />
+    <ClInclude Include="C:\RevoCore\src\server\worldserver\resource.h" />
+    <ClCompile Include="C:\RevoCore\src\server\shared\Debugging\WheatyExceptionReport.cpp" />
+    <ClInclude Include="C:\RevoCore\src\server\shared\Debugging\WheatyExceptionReport.h" />
+    <ResourceCompile Include="C:\RevoCore\src\server\worldserver\worldserver.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/RevoCore/Latest Build/ZERO_CHECK.vcxproj">
+      <Project>3FF553F1-05E0-4F4A-8384-9DEB8C873F2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/dep/acelite/ace/ace.vcxproj">
+      <Project>26B7D46C-F045-4F47-8281-20BCB2D1FEC6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/src/server/collision/collision.vcxproj">
+      <Project>B1D604BE-610B-4DF0-B704-64D56BEE216C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/dep/g3dlite/g3dlib.vcxproj">
+      <Project>D00172A6-16F6-469D-9CA4-74F716D85CB3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/src/server/game/game.vcxproj">
+      <Project>A5780E50-541C-4817-B5A4-1BF3BC1DD524</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/dep/gsoap/gsoap.vcxproj">
+      <Project>AE14B572-20F2-4F9B-8B76-61EC21A7662C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/dep/mysqllite/libmysql.vcxproj">
+      <Project>02EACAE8-494D-4FC4-9663-BDC29E392495</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/src/genrev/revision.h.vcxproj">
+      <Project>F35AC1A4-C95D-4A53-8872-66BB4B7B6496</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/src/server/scripts/scripts.vcxproj">
+      <Project>97EAEE55-E34C-4ED3-A9F3-CDB11DA106FD</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/src/server/shared/shared.vcxproj">
+      <Project>28F3257D-FEAE-4ECB-A430-EF6956EB12EB</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/RevoCore/Latest Build/dep/zlib/zlib.vcxproj">
+      <Project>2BEF33FA-A398-4115-A6AB-AE1C87DE24FC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

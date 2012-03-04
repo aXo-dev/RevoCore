@@ -1,0 +1,107 @@
+﻿Build started 3/4/2012 10:55:10 AM.
+     1>Project "C:\RevoCore\Latest Build\dep\g3dlite\g3dlib.vcxproj" on node 5 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\RevoCore\Latest Build\dep\g3dlite\Release\".
+       InitializeBuildStatus:
+         Creating "g3dlib.dir\Release\g3dlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/RevoCore/dep/g3dlite/CMakeLists.txt
+         CMake does not need to re-run because C:\RevoCore\Latest Build\dep\g3dlite\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/RevoCore/dep/g3dlite/include /IC:/RevoCore/dep/zlib /nologo /W0 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"g3dlib.dir\Release\\" /Fd"C:/RevoCore/Latest Build/dep/g3dlite/Release/g3dlib.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /analyze- /errorReport:prompt C:\RevoCore\dep\g3dlite\source\AABox.cpp C:\RevoCore\dep\g3dlite\source\Any.cpp C:\RevoCore\dep\g3dlite\source\BinaryFormat.cpp C:\RevoCore\dep\g3dlite\source\BinaryInput.cpp C:\RevoCore\dep\g3dlite\source\BinaryOutput.cpp C:\RevoCore\dep\g3dlite\source\Box.cpp C:\RevoCore\dep\g3dlite\source\Capsule.cpp C:\RevoCore\dep\g3dlite\source\CollisionDetection.cpp C:\RevoCore\dep\g3dlite\source\CoordinateFrame.cpp C:\RevoCore\dep\g3dlite\source\Crypto.cpp C:\RevoCore\dep\g3dlite\source\Cylinder.cpp C:\RevoCore\dep\g3dlite\source\debugAssert.cpp C:\RevoCore\dep\g3dlite\source\FileSystem.cpp C:\RevoCore\dep\g3dlite\source\fileutils.cpp C:\RevoCore\dep\g3dlite\source\format.cpp C:\RevoCore\dep\g3dlite\source\g3dfnmatch.cpp C:\RevoCore\dep\g3dlite\source\g3dmath.cpp C:\RevoCore\dep\g3dlite\source\Line.cpp C:\RevoCore\dep\g3dlite\source\LineSegment.cpp C:\RevoCore\dep\g3dlite\source\Log.cpp C:\RevoCore\dep\g3dlite\source\Matrix3.cpp C:\RevoCore\dep\g3dlite\source\Matrix4.cpp C:\RevoCore\dep\g3dlite\source\MemoryManager.cpp C:\RevoCore\dep\g3dlite\source\PhysicsFrame.cpp C:\RevoCore\dep\g3dlite\source\Plane.cpp C:\RevoCore\dep\g3dlite\source\prompt.cpp C:\RevoCore\dep\g3dlite\source\Quat.cpp C:\RevoCore\dep\g3dlite\source\Random.cpp C:\RevoCore\dep\g3dlite\source\Ray.cpp C:\RevoCore\dep\g3dlite\source\ReferenceCount.cpp C:\RevoCore\dep\g3dlite\source\RegistryUtil.cpp C:\RevoCore\dep\g3dlite\source\Sphere.cpp C:\RevoCore\dep\g3dlite\source\stringutils.cpp C:\RevoCore\dep\g3dlite\source\System.cpp C:\RevoCore\dep\g3dlite\source\TextInput.cpp C:\RevoCore\dep\g3dlite\source\TextOutput.cpp C:\RevoCore\dep\g3dlite\source\Triangle.cpp C:\RevoCore\dep\g3dlite\source\uint128.cpp C:\RevoCore\dep\g3dlite\source\UprightFrame.cpp C:\RevoCore\dep\g3dlite\source\Vector2.cpp C:\RevoCore\dep\g3dlite\source\Vector3.cpp C:\RevoCore\dep\g3dlite\source\Vector4.cpp  /Zm1000 
+         AABox.cpp
+         Any.cpp
+         BinaryFormat.cpp
+         BinaryInput.cpp
+         BinaryOutput.cpp
+         Box.cpp
+         Capsule.cpp
+         CollisionDetection.cpp
+         CoordinateFrame.cpp
+         Crypto.cpp
+         Cylinder.cpp
+         debugAssert.cpp
+         FileSystem.cpp
+         fileutils.cpp
+         format.cpp
+         g3dfnmatch.cpp
+         g3dmath.cpp
+         Line.cpp
+         LineSegment.cpp
+         Log.cpp
+         Matrix3.cpp
+         Matrix4.cpp
+         MemoryManager.cpp
+         PhysicsFrame.cpp
+         Plane.cpp
+         prompt.cpp
+         Quat.cpp
+         Random.cpp
+         Ray.cpp
+         ReferenceCount.cpp
+         RegistryUtil.cpp
+         Sphere.cpp
+         stringutils.cpp
+         System.cpp
+         TextInput.cpp
+         Port System::memcpy SIMD to all platforms
+         Port System::memfill SIMD to all platforms
+         TextOutput.cpp
+         Triangle.cpp
+         uint128.cpp
+         UprightFrame.cpp
+         Vector2.cpp
+         Vector3.cpp
+         Vector4.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\RevoCore\Latest Build\dep\g3dlite\Release\g3dlib.lib" /NOLOGO g3dlib.dir\Release\AABox.obj
+         g3dlib.dir\Release\Any.obj
+         g3dlib.dir\Release\BinaryFormat.obj
+         g3dlib.dir\Release\BinaryInput.obj
+         g3dlib.dir\Release\BinaryOutput.obj
+         g3dlib.dir\Release\Box.obj
+         g3dlib.dir\Release\Capsule.obj
+         g3dlib.dir\Release\CollisionDetection.obj
+         g3dlib.dir\Release\CoordinateFrame.obj
+         g3dlib.dir\Release\Crypto.obj
+         g3dlib.dir\Release\Cylinder.obj
+         g3dlib.dir\Release\debugAssert.obj
+         g3dlib.dir\Release\FileSystem.obj
+         g3dlib.dir\Release\fileutils.obj
+         g3dlib.dir\Release\format.obj
+         g3dlib.dir\Release\g3dfnmatch.obj
+         g3dlib.dir\Release\g3dmath.obj
+         g3dlib.dir\Release\Line.obj
+         g3dlib.dir\Release\LineSegment.obj
+         g3dlib.dir\Release\Log.obj
+         g3dlib.dir\Release\Matrix3.obj
+         g3dlib.dir\Release\Matrix4.obj
+         g3dlib.dir\Release\MemoryManager.obj
+         g3dlib.dir\Release\PhysicsFrame.obj
+         g3dlib.dir\Release\Plane.obj
+         g3dlib.dir\Release\prompt.obj
+         g3dlib.dir\Release\Quat.obj
+         g3dlib.dir\Release\Random.obj
+         g3dlib.dir\Release\Ray.obj
+         g3dlib.dir\Release\ReferenceCount.obj
+         g3dlib.dir\Release\RegistryUtil.obj
+         g3dlib.dir\Release\Sphere.obj
+         g3dlib.dir\Release\stringutils.obj
+         g3dlib.dir\Release\System.obj
+         g3dlib.dir\Release\TextInput.obj
+         g3dlib.dir\Release\TextOutput.obj
+         g3dlib.dir\Release\Triangle.obj
+         g3dlib.dir\Release\uint128.obj
+         g3dlib.dir\Release\UprightFrame.obj
+         g3dlib.dir\Release\Vector2.obj
+         g3dlib.dir\Release\Vector3.obj
+         g3dlib.dir\Release\Vector4.obj
+         g3dlib.vcxproj -> C:\RevoCore\Latest Build\dep\g3dlite\Release\g3dlib.lib
+       FinalizeBuildStatus:
+         Deleting file "g3dlib.dir\Release\g3dlib.unsuccessfulbuild".
+         Touching "g3dlib.dir\Release\g3dlib.lastbuildstate".
+     1>Done Building Project "C:\RevoCore\Latest Build\dep\g3dlite\g3dlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.27

@@ -1,0 +1,38 @@
+﻿Build started 3/4/2012 10:55:29 AM.
+     1>Project "C:\RevoCore\Latest Build\src\server\collision\collision.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\RevoCore\Latest Build\src\server\collision\Release\".
+       InitializeBuildStatus:
+         Creating "collision.dir\Release\collision.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/RevoCore/src/server/collision/CMakeLists.txt
+         CMake does not need to re-run because C:\RevoCore\Latest Build\src\server\collision\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/RevoCore/Latest Build/src/server/collision" /IC:/RevoCore/dep/g3dlite/include /IC:/RevoCore/src/server/shared /IC:/RevoCore/src/server/shared/Debugging /IC:/RevoCore/src/server/shared/Database /IC:/RevoCore/src/server/shared/Dynamic /IC:/RevoCore/src/server/shared/Logging /IC:/RevoCore/src/server/shared/Threading /IC:/RevoCore/src/server/game/Conditions /IC:/RevoCore/src/server/collision /IC:/RevoCore/src/server/collision/Management /IC:/RevoCore/src/server/collision/Maps /IC:/RevoCore/src/server/collision/Models /I"C:/RevoCore/Latest Build" /IC:/RevoCore/dep/acelite /IC:/RevoCore/dep/mysqllite/include /I"C:/OpenSSL-Win32/include" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"C:/RevoCore/src/server/collision/PrecompiledHeaders/collisionPCH.h" /Fp"collision.dir\Release\collision.pch" /Fo"collision.dir\Release\\" /Fd"C:/RevoCore/Latest Build/src/server/collision/Release/collision.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /FIC:/RevoCore/src/server/collision/PrecompiledHeaders/collisionPCH.h /analyze- /errorReport:prompt C:\RevoCore\src\server\collision\PrecompiledHeaders\collisionPCH.cpp  /Zm1000 
+         collisionPCH.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/RevoCore/Latest Build/src/server/collision" /IC:/RevoCore/dep/g3dlite/include /IC:/RevoCore/src/server/shared /IC:/RevoCore/src/server/shared/Debugging /IC:/RevoCore/src/server/shared/Database /IC:/RevoCore/src/server/shared/Dynamic /IC:/RevoCore/src/server/shared/Logging /IC:/RevoCore/src/server/shared/Threading /IC:/RevoCore/src/server/game/Conditions /IC:/RevoCore/src/server/collision /IC:/RevoCore/src/server/collision/Management /IC:/RevoCore/src/server/collision/Maps /IC:/RevoCore/src/server/collision/Models /I"C:/RevoCore/Latest Build" /IC:/RevoCore/dep/acelite /IC:/RevoCore/dep/mysqllite/include /I"C:/OpenSSL-Win32/include" /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_BUILD_DIRECTIVE=\"Release\"" /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D SCRIPTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"C:/RevoCore/src/server/collision/PrecompiledHeaders/collisionPCH.h" /Fp"collision.dir\Release\collision.pch" /Fo"collision.dir\Release\\" /Fd"C:/RevoCore/Latest Build/src/server/collision/Release/collision.pdb" /Gd /TP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /FIC:/RevoCore/src/server/collision/PrecompiledHeaders/collisionPCH.h /analyze- /errorReport:prompt C:\RevoCore\src\server\collision\Management\VMapFactory.cpp C:\RevoCore\src\server\collision\Management\VMapManager2.cpp C:\RevoCore\src\server\collision\Maps\MapTree.cpp C:\RevoCore\src\server\collision\Maps\TileAssembler.cpp C:\RevoCore\src\server\collision\Models\ModelInstance.cpp C:\RevoCore\src\server\collision\Models\WorldModel.cpp C:\RevoCore\src\server\collision\BoundingIntervalHierarchy.cpp  /Zm1000 
+         VMapFactory.cpp
+         VMapManager2.cpp
+         MapTree.cpp
+         TileAssembler.cpp
+         ModelInstance.cpp
+         WorldModel.cpp
+         BoundingIntervalHierarchy.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\RevoCore\Latest Build\src\server\collision\Release\collision.lib" /NOLOGO collision.dir\Release\collisionPCH.obj
+         collision.dir\Release\VMapFactory.obj
+         collision.dir\Release\VMapManager2.obj
+         collision.dir\Release\MapTree.obj
+         collision.dir\Release\TileAssembler.obj
+         collision.dir\Release\ModelInstance.obj
+         collision.dir\Release\WorldModel.obj
+         collision.dir\Release\BoundingIntervalHierarchy.obj
+         collision.vcxproj -> C:\RevoCore\Latest Build\src\server\collision\Release\collision.lib
+       FinalizeBuildStatus:
+         Deleting file "collision.dir\Release\collision.unsuccessfulbuild".
+         Touching "collision.dir\Release\collision.lastbuildstate".
+     1>Done Building Project "C:\RevoCore\Latest Build\src\server\collision\collision.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.54
