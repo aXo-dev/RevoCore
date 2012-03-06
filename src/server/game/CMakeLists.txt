@@ -48,6 +48,7 @@ file(GLOB_RECURSE sources_Spells Spells/*.cpp Spells/*.h)
 file(GLOB_RECURSE sources_Texts Texts/*.cpp Texts/*.h)
 file(GLOB_RECURSE sources_Tools Tools/*.cpp Tools/*.h)
 file(GLOB_RECURSE sources_Tickets Tickets/*.cpp Tickets/*.h)
+file(GLOB_RECURSE sources_Warden Warden/*.cpp Warden/*.h)
 file(GLOB_RECURSE sources_Weather Weather/*.cpp Weather/*.h)
 file(GLOB_RECURSE sources_World World/*.cpp World/*.h)
 
