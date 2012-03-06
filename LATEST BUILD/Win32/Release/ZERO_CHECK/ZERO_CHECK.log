@@ -1,4 +1,4 @@
-﻿Build started 3/4/2012 5:59:07 PM.
+﻿Build started 3/5/2012 7:50:10 PM.
      1>Project "C:\RevoCore\LATEST BUILD\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -9,4 +9,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.12
+Time Elapsed 00:00:00.06
